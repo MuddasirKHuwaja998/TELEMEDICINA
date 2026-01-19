@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Telemedicina | Otofarma S.p.A.</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/bg-img/logo.png" sizes="64x64 128x128 256x256">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+    :root {
+        --primary-blue: #2563eb;
+        --secondary-green: #00c48c;
+        --accent-violet: #7c3aed;
+    }
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f7fbff;
+    }
+    .btn, .alazea-btn, button, .footer-nav a, .widget-nav a {
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s, border-color 0.3s;
+        background: var(--primary-blue) !important;
+        color: #fff !important;
+        border: 2px solid var(--primary-blue) !important;
+        border-radius: 8px !important;
+        font-weight: 600;
+    }
+    .btn:hover, .alazea-btn:hover, button:hover, .footer-nav a:hover, .widget-nav a:hover {
+        background: var(--secondary-green) !important;
+        color: #fff !important;
+        box-shadow: 0 4px 18px rgba(0,196,140,0.13);
+        border-color: var(--secondary-green) !important;
+        transform: translateY(-2px) scale(1.04);
+        text-decoration: none;
+    }
+    .accent-btn {
+        background: linear-gradient(90deg, var(--primary-blue) 0%, var(--accent-violet) 100%) !important;
+        color: #fff !important;
+        border: none !important;
+    }
+    h1, h2, h5, .section-heading h2, .single-benefits-area h5, .single-service-area h5 {
+        color: var(--primary-blue) !important;
+        font-weight: 500;
+    }
+    h2:hover, h5:hover, .section-heading h2:hover, .single-benefits-area h5:hover, .single-service-area h5:hover {
+        color: var(--secondary-green) !important;
+        text-shadow: none;
+        transform: scale(1.01);
+    }
+    .footer-link-btn {
+        background: none !important;
+        color: #fff !important;
+        font-weight: 700 !important;
+        border: 2px solid transparent !important;
+        border-radius: 0 !important;
+    }
+    .footer-link-btn:hover, .footer-link-btn:focus {
+        background: none !important;
+        color: var(--secondary-green) !important;
+        border: 2px solid var(--secondary-green) !important;
+    }
+    .footer-area .social-info a:hover i {
+        color: var(--secondary-green) !important;
+        background: none !important;
+    }
+    </style>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-violet) 100%); z-index:9999;">
+        <div class="preloader-circle" style="border: 6px solid var(--primary-blue); border-top: 6px solid var(--accent-violet);"></div>
+        <div class="preloader-img" style="display: flex; align-items: center; justify-content: center; height: 240px; width: 240px;">
+            <img src="img/bg-img/logo.png" alt="Logo" style="max-height: 240px; max-width: 240px; object-fit: contain; margin: 0; padding: 0; border-radius: 16px;">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- ***** Top Header Area ***** -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="otofarmaspa@pec.it"><i class="fa fa-envelope-o" aria-hidden="true" style="color:var(--primary-blue);"></i> <span style="color:#ffffff;">PEC: otofarmaspa@pec.it</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="800.400.624"><i class="fa fa-phone" aria-hidden="true" style="color:var(--primary-blue);"></i> <span style="color:#fffefe;">Numero Verde: 800.400.624</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                                <!-- Language Dropdown Only -->
+                                <div class="language-dropdown">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lingua</button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background:#eaf6fd; border:1.5px solid #228B22;">
+                                            <a class="dropdown-item language-option" href="#" data-lang="it" style="color:#228B22;">Italiano</a>
+                                            <a class="dropdown-item language-option disabled" href="#" data-lang="en-uk" style="color:#228B22;">Inglese UK (non disponibile)</a>
+                                            <a class="dropdown-item language-option disabled" href="#" data-lang="en-usa" style="color:#228B22;">Inglese USA (non disponibile)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***** Navbar Area ***** -->
+        <div class="alazea-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                        <!-- Nav Brand -->
+                        <a href="index.html" class="nav-brand" style="border-radius:12px; padding:4px 12px; display:inline-block;">
+                            <img src="img/bg-img/logo.png" alt="Telemedicina Logo" style="height: 140px; width:260px; display:block; border-radius:12px; object-fit:contain;">
+                        </a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Navbar Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">Chi Siamo</a></li>
+                                    <li><a href="products_services.html">Servizi</a></li>
+                                    <li><a href="career.html">Lavoro con Noi</a></li>
+                                    <li><a href="contact.html">Contatti</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div id="searchIcon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <!-- Navbar End -->
+                        </div>
+                    </nav>
+
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Inserisci le parole chiave e premi invio...">
+                            <button type="submit" class="d-none"></button>
+                        </form>
+                        <!-- Close Icon -->
+                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-post-slides owl-carousel">
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/HERO1.png);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-left" style="text-align:left;">
+                                                                <h2 style="font-size:3.1rem; font-weight:700; font-family:'Segoe UI','Arial',sans-serif; letter-spacing:0.01em;">
+                                                                    <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">MEDI</span><span style="color:var(--primary-blue);">CINA</span>
+                                                                </h2>
+                                <p style="font-size:1.45rem; font-weight:500; color:#fff; margin-top:1.1rem; margin-bottom:2.1rem; max-width:700px;">Soluzioni di telemedicina innovative per la salute e la prevenzione, ovunque tu sia. Tecnologia, affidabilità e cura specialistica da Otofarma S.p.A.</p>
+                                <div class="welcome-btn-group">
+                                    <a href="#" class="btn alazea-btn mr-30" style="background:#fff; color:var(--primary-blue); border:2px solid var(--primary-blue); border-radius:8px; font-weight:600;">INIZIA ORA</a>
+                                    <a href="contact.html" class="btn alazea-btn active" style="background:var(--secondary-green); color:#fff; border:2px solid var(--secondary-green); border-radius:8px; font-weight:600;">Contatti</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/HERO\ 2.webp);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-left" style="text-align:left;">
+                                                                <h2 style="font-size:3.1rem; font-weight:700; font-family:'Segoe UI','Arial',sans-serif; letter-spacing:0.01em;">
+                                                                    <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">MEDI</span><span style="color:var(--primary-blue);">CINA</span>
+                                                                </h2>
+                                
+                                <p style="font-size:1.45rem; font-weight:500; color:#fff; margin-top:1.1rem; margin-bottom:2.1rem; max-width:700px;">Rappresentiamo e sosteniamo gli audioprotesisti italiani con competenza, indipendenza e impegno continuo.</p>
+                                <div class="welcome-btn-group">
+                                    <a href="products_services.html" class="btn alazea-btn mr-30" style="background:#228B22; color:#fff; border:2px solid #228B22; border-radius:8px; font-weight:600;">INIZIA ORA</a>
+                                    <a href="contact.html" class="btn alazea-btn active" style="background:#fff; color:#228B22; border:2px solid #228B22; border-radius:8px; font-weight:600;">CONTATTI</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Service Area Start ##### -->
+    <section class="our-services-area bg-gray section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                                                <h2>
+                                                    <span style="color:var(--secondary-green);">I&nbsp;NO</span><span style="color:var(--accent-violet);">STRI&nbsp;SE</span><span style="color:var(--primary-blue);">RVIZI</span>
+                                                </h2>
+                        <p>Scopri i servizi di Telemedicina di Otofarma S.p.A. per la salute e la prevenzione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Row 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Telecardiology" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">CARDIO</span><span style="color:var(--primary-blue);">LOGIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Echocardiogram by video-guided instructions, supervised by a medical professional for accurate heart health assessment.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Teleaudiology" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">AUDIO</span><span style="color:var(--primary-blue);">LOGIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Exclusive Otofarma tech for ear canal exam and audiometric test, with audiometrist and doctor support.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Vital Parameters" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">PARAMETRI</span><span style="color:var(--primary-blue);">VITALI</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Multi-sensor probe for blood pressure, ECG, temperature, oxygen, and glucose for rapid diagnosis.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Tele-ultrasound" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">ECO</span><span style="color:var(--primary-blue);">GRAFIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Ultrasound with "Ecografo" device and Otofarma staff support, with option to save results.</p>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Tele-otoscopy" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">OTOSCO</span><span style="color:var(--primary-blue);">PIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Professional otoscopic probe for high-res ear canal images, helping doctors identify issues.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Teledermatology" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--Accent-violet);">DERMATO</span><span style="color:var(--primary-blue);">LOGIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Dermatological probe and remote dermatologist for mole mapping, diagnosis, and prevention.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Tele-dentistry" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">ODONTO</span><span style="color:var(--primary-blue);">IATRIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Dental imaging probe with LED for remote inspection of oral cavity and dental pathologies.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid var(--primary-blue); border-radius:16px; padding:32px 18px; background:#fff;">
+                        <img src="img/bg-img/valigetta01-1.png" alt="Tele-ophthalmology" style="width:54px;height:54px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="font-size:1.18rem; font-weight:600;">
+                          <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">OFTALM</span><span style="color:var(--primary-blue);">OLOGIA</span>
+                        </h5>
+                        <p style="font-size:1.02rem; color:#222;">Specialist probe for eye, iris, and fundus analysis, enabling remote vision checks by a doctor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+        .animated-service {
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+        .animated-service:hover {
+            transform: scale(1.07);
+            box-shadow: 0 8px 32px #228B2233;
+            z-index: 2;
+        }
+        </style>
+    </section>
+    <!-- ##### Service Area End ##### -->
+
+    <!-- ##### About Area Start ##### -->
+    <section class="about-us-area section-padding-100-0">
+        <div class="container"> 
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                                                <h2>
+                                                    <span style="color:var(--secondary-green);">CHI&nbsp;</span><span style="color:var(--accent-violet);">SIA</span><span style="color:var(--primary-blue);">MO</span>
+                                                </h2>
+                            <p style="color:hsl(220, 60%, 18%);">Telemedicina è un servizio rivoluzionario sviluppato da Otofarma S.p.A., azienda leader nelle soluzioni audioprotesiche e nella tecnologia medica avanzata. La nostra missione è abbattere le distanze tra pazienti e specialisti, rendendo le consulenze mediche professionali accessibili ovunque e in qualsiasi momento.<br><br>Attraverso la nostra innovazione di punta, TelefarmaMedica, offriamo un complesso strumentale portatile che racchiude una clinica medica completa in una sola valigetta facilmente trasportabile. Che tu sia a casa o in una località remota, la nostra tecnologia crea un collegamento diretto e in alta definizione con un team medico dedicato, garantendo che l’assistenza sanitaria di qualità sia sempre a portata di mano.</p>
+                    </div>
+                   
+
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="chi-siamo-video-area" style="position:relative; width:100%; height:340px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+                                                <div style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:98%; height:98%; border-radius:32px; padding:0; box-sizing:border-box; background: linear-gradient(120deg, #00c48c 0%, #7c3aed 50%, #2563eb 100%); display:flex; align-items:center; justify-content:center; z-index:1;">
+                                                    <div style="width:100%; height:100%; border-radius:28px; background:#fff; padding:10px; box-sizing:border-box; display:flex; align-items:center; justify-content:center;">
+                                                        <video id="chisiamo-video" src="img/bg-img/chisiamo.mp4" autoplay loop muted playsinline style="width:100%; height:100%; object-fit:cover; transform: scaleX(-1) scale(1.08); filter: brightness(1.08); border-radius:18px; border:none; background:transparent; display:block;">
+                                                                Il tuo browser non supporta il video HTML5.
+                                                        </video>
+                                                    </div>
+                                                </div>
+                                                <img src="img/bg-img/logo.png" alt="Logo" style="position:absolute; top:12px; left:12px; height:92px; width:auto; z-index:2; border-radius:12px; padding:0; box-shadow:none; background:none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Removed border line as requested -->
+        </div>
+    </section>
+    <!-- ##### About Area End ##### -->
+
+   
+
+    <!-- ##### Product Area Removed as requested ##### -->
+
+    <!-- ##### Products Section Start ##### -->
+    <section class="team-area section-padding-100-0" style="background:#f7fbff;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="section-heading text-center mb-5">
+                        <h2 style="font-weight:700; font-size:2.3rem;">
+                            <span style="color:var(--secondary-green);">IL&nbsp;NO</span><span style="color:var(--accent-violet);">STRO&nbsp;TE</span><span style="color:var(--primary-blue);">AM</span>
+                        </h2>
+                        <p style="color:#000; font-size:1.18rem;">Il nostro team esecutivo guida la crescita e l’innovazione di Telemedicina Otofarma S.p.A.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                                <!-- Team Member: Rino Bartolomucci -->
+                                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                                    <div class="team-flip-card team-border-green">
+                                        <div class="team-flip-card-inner">
+                                            <div class="team-flip-card-front">
+                                                <div class="team-img-wrap">
+                                                    <img src="img/bg-img/rino.png" alt="Rino Bartolomucci" class="team-img-square">
+                                                </div>
+                                                <div class="team-name" style="color:#2563eb; font-weight:700; font-size:1.13rem;">Rino Bartolomucci</div>
+                                                <div class="team-role" style="color:#00c48c; font-weight:600; font-size:1.01rem;">Executive Chairman & President</div>
+                                            </div>
+                                            <div class="team-flip-card-back">
+                                                <div class="team-flip-content">He is the visionary founder of the company with over 30 years of experience in the medical and hearing care sectors. He holds a degree in criminal anthropology and specialized diplomas in audiological sciences and optics.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Team Member: Giovanna Incarnato Bartolomucci -->
+                                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                                    <div class="team-flip-card team-border-violet">
+                                        <div class="team-flip-card-inner">
+                                            <div class="team-flip-card-front">
+                                                <div class="team-img-wrap">
+                                                    <img src="img/bg-img/giovana.png" alt="Giovanna Incarnato Bartolomucci" class="team-img-square" style="object-position: center top; object-fit: contain; background:#fff;">
+                                                </div>
+                                                <div class="team-name" style="color:#2563eb; font-weight:700; font-size:1.13rem;">Giovanna Incarnato Bartolomucci</div>
+                                                <div class="team-role" style="color:#00c48c; font-weight:600; font-size:1.01rem;">Chief Executive Officer (CEO)</div>
+                                            </div>
+                                            <div class="team-flip-card-back">
+                                                <div class="team-flip-content">A graduate in Economics and Business, she has led the company as CEO and Director for over four years. She is the primary strategic leader driving the development and expansion of the Telemedicina platform.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Team Member: Nicola Mottola -->
+                                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                                    <div class="team-flip-card team-border-blue">
+                                        <div class="team-flip-card-inner">
+                                            <div class="team-flip-card-front">
+                                                <div class="team-img-wrap">
+                                                    <img src="img/bg-img/nicola.jpg" alt="Nicola Mottola" class="team-img-square">
+                                                </div>
+                                                <div class="team-name" style="color:#2563eb; font-weight:700; font-size:1.13rem;">Nicola Mottola</div>
+                                                <div class="team-role" style="color:#00c48c; font-weight:600; font-size:1.01rem;">Chief Financial Officer (CFO)</div>
+                                            </div>
+                                            <div class="team-flip-card-back">
+                                                <div class="team-flip-content">The newest addition to the executive team, he oversees the company's financial governance and strategic growth. He brings extensive financial management experience to support the company’s recent public expansion.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Team Member: Enrico Bartolomucci -->
+                                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                                    <div class="team-flip-card team-border-green">
+                                        <div class="team-flip-card-inner">
+                                            <div class="team-flip-card-front">
+                                                <div class="team-img-wrap">
+                                                    <img src="img/bg-img/ENRICOO.jpg" alt="Enrico Bartolomucci" class="team-img-square">
+                                                </div>
+                                                <div class="team-name" style="color:#2563eb; font-weight:700; font-size:1.13rem;">Enrico Bartolomucci</div>
+                                                <div class="team-role" style="color:#00c48c; font-weight:600; font-size:1.01rem;">Commercial Director</div>
+                                            </div>
+                                            <div class="team-flip-card-back">
+                                                <div class="team-flip-content">He manages the commercial expansion of the brand and the vast network of over 4,000 partner pharmacies. He holds a degree in audioprosthetic techniques and specialized training in advanced sales and marketing.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Team Member: Anna Incarnato Bartolomucci -->
+                                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                                    <div class="team-flip-card team-border-violet">
+                                        <div class="team-flip-card-inner">
+                                            <div class="team-flip-card-front">
+                                                <div class="team-img-wrap">
+                                                    <img src="img/bg-img/anna.png" alt="Anna Incarnato Bartolomucci" class="team-img-square" style="object-position: center top; object-fit: contain; background:#fff;">
+                                                </div>
+                                                <div class="team-name" style="color:#2563eb; font-weight:700; font-size:1.13rem;">Anna Incarnato Bartolomucci</div>
+                                                <div class="team-role" style="color:#00c48c; font-weight:600; font-size:1.01rem;">Head of Investor Relations</div>
+                                            </div>
+                                            <div class="team-flip-card-back">
+                                                <div class="team-flip-content">She serves as the primary point of contact for shareholders and manages the company's relationship with the financial community. She is also a key member of the Board of Directors and an administrator for the company.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            </div>
+        </div>
+        <style>
+        .team-flip-card {
+            background: #fff;
+            border-radius: 0;
+            box-shadow: 0 4px 24px #228B2233;
+            width: 100%;
+            min-height: 340px;
+            perspective: 1200px;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            position: relative;
+            transition: box-shadow 0.3s, transform 0.3s;
+            border: 6px solid transparent;
+        }
+        .team-border-green {
+            border-color: #00c48c;
+        }
+        .team-border-violet {
+            border-color: #7c3aed;
+        }
+        .team-border-blue {
+            border-color: #2563eb;
+        }
+        .team-flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s cubic-bezier(.4,0,.2,1);
+            transform-style: preserve-3d;
+        }
+        .team-flip-card:hover .team-flip-card-inner, .team-flip-card:focus-within .team-flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .team-flip-card-front, .team-flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: none;
+            background: #fff;
+        }
+        .team-flip-card-front {
+            z-index: 2;
+            padding: 32px 18px 24px 18px;
+        }
+        .team-flip-card-back {
+            background: #f6f2fd;
+            color: #2563eb;
+            transform: rotateY(180deg);
+            z-index: 3;
+            padding: 32px 18px 24px 18px;
+        }
+        .team-img-square {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 0;
+            border: none;
+            margin-top: 24px;
+            margin-bottom: 18px;
+            box-shadow: none;
+        }
+        .team-box:hover {
+            box-shadow: 0 8px 32px #2563eb44;
+            transform: translateY(-6px) scale(1.04);
+        }
+        .team-img-wrap {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        .team-img-square {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 0;
+            border: 4px solid #2563eb;
+            margin-top: 24px;
+            margin-bottom: 18px;
+            box-shadow: 0 2px 12px #2563eb22;
+        }
+        .team-info {
+            width: 100%;
+            text-align: center;
+            padding: 0 12px 18px 12px;
+            position: relative;
+        }
+        .team-name {
+            margin-bottom: 2px;
+        }
+        .team-role {
+            margin-bottom: 0;
+        }
+        .team-flip-content {
+            color: #2563eb;
+            font-size: 1.01rem;
+            font-weight: 500;
+            text-align: center;
+        }
+        @media (max-width: 991px) {
+            .team-img-square { width: 120px; height: 120px; }
+            .team-box { min-height: 280px; }
+        }
+        @media (max-width: 767px) {
+            .team-img-square { width: 90px; height: 90px; }
+            .team-box { min-height: 200px; }
+        }
+        </style>
+    </section>
+    <!-- ##### Products Section End ##### -->
+    <!-- ##### Blog Area End ##### -->
+    <!-- ##### Testimonials Area Start ##### -->
+    <section class="odiens-testimonials-area section-padding-100-0" style="background:#f7fbff; border-radius:8px; margin-bottom:+40px; font-family:'Segoe UI', 'Arial', sans-serif;">
+        <div class="container" style="background:#f6f2fd; border-radius:0;">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                                        <h2 style="font-weight:700; margin-bottom:18px; font-size:2.1rem;">
+                                            <span style="color:var(--secondary-green);">COSA&nbsp;DI</span><span style="color:var(--accent-violet);">CONO&nbsp;DI</span><span style="color:var(--primary-blue);">NOI</span>
+                                        </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Testimonial 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.1s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/ladydr.png" alt="Dott.ssa Maria Rossi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott.ssa Maria Rossi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“La piattaforma di telemedicina ha rivoluzionato il modo in cui assisto i miei pazienti: consulti rapidi, referti digitali e massima sicurezza. Un servizio indispensabile per la medicina moderna.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.3s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/doctor.png" alt="Dott. Luca Bianchi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott. Luca Bianchi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“Grazie alla telemedicina posso seguire i miei pazienti anche a distanza, garantendo continuità nelle cure e risposte tempestive. Un sistema efficiente e facile da usare.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.5s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/doctor (1).png" alt="Dott.ssa Chiara Verdi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott.ssa Chiara Verdi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“Con la telemedicina ho potuto offrire consulti specialistici anche ai pazienti che vivono lontano. La tecnologia è intuitiva e la qualità del servizio è eccellente.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.7s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/doctor.png" alt="Dott. Marco Neri" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott. Marco Neri</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“La telemedicina ha reso possibile monitorare i parametri dei miei pazienti in tempo reale e intervenire prontamente quando necessario. Un grande passo avanti per la salute di tutti.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonials Area End ##### -->
+    <style>
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(40px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .testimonial-box:hover {
+        box-shadow: 0 8px 32px #228B2244;
+        transform: scale(1.04) translateY(-4px);
+        border: 1.5px solid #228B22;
+    }
+    </style>
+
+    <!-- ##### Subscribe Area Start ##### -->
+    <section class="subscribe-newsletter-area" style="background-image: url(img/bg-img/subscribe.png); border: 1.5px solid #228B22; border-radius: 8px;">
+        <div class="container" style="font-family:'Segoe UI', Arial, sans-serif;">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading mb-0">
+                        <h2 style="font-weight:700; color:var(--primary-blue); letter-spacing:0.01em;">
+                            <span style="color:var(--secondary-green);">TELE</span><span style="color:var(--accent-violet);">MEDI</span><span style="color:var(--primary-blue);">CINA</span>
+                        </h2>
+                        <p style="color:#090909; font-size:1.13rem; font-weight:500;">Iscriviti alla nostra newsletter per ricevere aggiornamenti su servizi, novità e consigli di salute digitale. Rimani connesso con la telemedicina di Otofarma S.p.A.!</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="subscribe-form">
+                        <form action="#" method="get" style="display:flex; gap:12px; align-items:center;">
+                            <input type="email" name="subscribe-email" id="subscribeEmail" placeholder="Inserisci la tua email" style="font-family:'Segoe UI', Arial, sans-serif; font-size:1.08rem; border:2px solid var(--primary-blue); border-radius:6px; padding:10px 16px; color:#2563eb; width:60%;">
+                            <button type="submit" class="btn alazea-btn" style="background:var(--secondary-green); color:#fff; border:2px solid var(--secondary-green); border-radius:6px; font-weight:600; font-size:1.08rem;">ISCRIVITI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe Side Thumbnail -->
+        <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
+            <img class="first-img" src="img/bg-img/logo.png" alt="Telemedicina Otofarma Logo" style="width: 80px; height: 80px; object-fit: contain;">
+        </div>
+    </section>
+    <!-- ##### Subscribe Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100-0">
+        <div class="container" style="font-family:'Segoe UI', Arial, sans-serif;">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2 style="font-weight:700; color:var(--primary-blue); letter-spacing:0.01em;">Contatta <span style="color:var(--secondary-green);">Tele</span><span style="color:var(--accent-violet);">medicina</span> <span style="color:var(--primary-blue);">Otofarma</span></h2>
+                        <p style="color:#343535; font-size:1.13rem; font-weight:500;">Per informazioni sui servizi di telemedicina, supporto tecnico o richieste commerciali, contattaci ai recapiti qui sotto.</p>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="contact-form-area mb-100">
+                        <ul style="list-style:none; padding:0; color:#111; font-size:1.08rem;">
+                            <li><strong>Ragione Sociale:</strong> Otofarma S.p.A.</li>
+                            <li><strong>Sede Legale:</strong> Viale Antonio Gramsci, 17/B, 80122 Napoli (NA), Italy</li>
+                            <li><strong>Sito Produttivo:</strong> Via Ripuaria, 50k-50l, 50m, 80014 Giugliano in Campania (NA), Italy</li>
+                            <li><strong>Numero Verde:</strong> <a href="tel:800400624" style="color:#111; font-weight:600;">800.400.624</a></li>
+                            <li><strong>Email:</strong> <a href="mailto:info@otofarma.it" style="color:#111;">info@otofarma.it</a></li>
+                            <li><strong>PEC:</strong> <a href="mailto:otofarmaspa@pec.it" style="color:#111;">otofarmaspa@pec.it</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <!-- Google Maps -->
+                    <div class="map-area mb-100">
+                        <iframe src="https://www.google.com/maps?q=Viale+Antonio+Gramsci+17%2FB%2C+80122+Napoli+NA%2C+Italy&output=embed" width="100%" height="350" frameborder="0" style="border:0; border-radius:8px;" allowfullscreen title="Otofarma Sede Legale"></iframe>
+                        <div style="margin-top:8px; color:var(--primary-blue); font-size:1.08rem;">
+                            <strong>Viale Antonio Gramsci, 17/B</strong><br>
+                            80122 Napoli (NA), Italy<br>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=Viale+Antonio+Gramsci+17%2FB%2C+80122+Napoli+NA%2C+Italy" target="_blank" rel="noopener" style="color:var(--secondary-green); font-weight:600;">Indicazioni</a> |
+                            <a href="https://www.google.com/maps?q=Viale+Antonio+Gramsci+17%2FB%2C+80122+Napoli+NA%2C+Italy" target="_blank" rel="noopener" style="color:var(--accent-violet); font-weight:600;">Visualizza mappa ingrandita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area bg-img" style="position: relative; background-image: url(img/bg-img/FOOTER.png); background-color: transparent; background-blend-mode: normal;">
+        <div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(20,20,20,0.75); z-index: 0;"></div>
+        <!-- Main Footer Area -->
+        <div class="main-footer-area" style="position: relative; z-index: 1;">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget: Logo/Info -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo mb-30">
+                                <a href="#" style="border-radius:12px; padding:4px 12px; display:inline-block;">
+                                    <img src="img/bg-img/logo.png" alt="Telemedicina Logo" style="height:160px; width:auto; display:block; border-radius:12px;">
+                                </a>
+                            </div>
+                            <p style="color:#fff; font-size:1.05rem; font-weight:500; line-height:1.6;">Otofarma S.p.A. - Telemedicina<br>Soluzioni innovative per la salute e la prevenzione in tutta Italia.</p>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Contacts -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                                                <h5>
+                                                                    <span style="color:var(--secondary-green);">CON</span><span style="color:var(--accent-violet);">TAT</span><span style="color:var(--primary-blue);">TI</span>
+                                                                </h5>
+                            </div>
+                            <div class="contact-information">
+                                <p><span>Sede Legale:</span><br>Viale Antonio Gramsci, 17/B<br>80122 Naples (NA), Italy</p>
+                                <p><span>Sito Produttivo:</span><br>Via Ripuaria, 50k-50l, 50m<br>80014 Giugliano in Campania (NA), Italy</p>
+                                <p><span>Numero Verde:</span> 800.400.624</p>
+                                <p><span>Email:</span> <a href="mailto:info@otofarma.it" style="color:#fff;">info@otofarma.it</a></p>
+                                <p><span>PEC:</span> <a href="mailto:otofarmaspa@pec.it" style="color:#fff;">otofarmaspa@pec.it</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Rapid Links (with improved style) -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                                                <h5>
+                                                                    <span style="color:var(--secondary-green);">LINK&nbsp;</span><span style="color:var(--accent-violet);">RA</span><span style="color:var(--primary-blue);">PIDI</span>
+                                                                </h5>
+                            </div>
+                            <nav class="widget-nav">
+                                <ul style="padding-left:0; margin:0; display:block;">
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="index.html" class="footer-link-btn">Home</a></li>
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="about.html" class="footer-link-btn">Chi Siamo</a></li>
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="products_services.html" class="footer-link-btn">Servizi</a></li>
+                                    
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="contact.html" class="footer-link-btn">Contatti</a></li>
+                                </ul>
+                                <style>
+                                .footer-link-btn {
+                                    display: block;
+                                    width: 100%;
+                                    padding: 13px 0;
+                                    
+                                    color: #222;
+                                    font-weight: 700;
+                                    font-size: 1.08rem;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    border-radius: 0;
+                                    border: 2px solid #fff;
+                                    box-shadow: none;
+                                    transition: background 0.18s, color 0.18s, border-color 0.18s;
+                                    margin: 0;
+                                }
+                                .footer-link-btn:hover, .footer-link-btn:focus {
+                                    background: #fff;
+                                    color: #228B22;
+                                    border-color: #228B22;
+                                    text-decoration: none;
+                                }
+                                </style>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Main Services -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                                                <h5>
+                                                                    <span style="color:var(--secondary-green);">PRINCIPALI&nbsp;</span><span style="color:var(--accent-violet);">SER</span><span style="color:var(--primary-blue);">VIZI</span>
+                                                                </h5>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center mb-2">
+                                <div class="service-icon mr-3" style="width:38px; height:38px; display:flex; align-items:center; justify-content:center; background:var(--secondary-green); border-radius:8px;">
+                                    <img src="img/bg-img/valigetta01-1.png" alt="Telecardiologia" style="width:24px; height:24px; object-fit:contain;">
+                                </div>
+                                <div>
+                                    <h6 style="margin-bottom:2px; color:var(--secondary-green); font-weight:700; font-size:1.01rem;">Telecardiologia</h6>
+                                    <span style="font-size:0.98rem; color:#e1dfdf;">ECG, monitoraggio e referti cardiologici a distanza.</span>
+                                </div>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center mb-2">
+                                <div class="service-icon mr-3" style="width:38px; height:38px; display:flex; align-items:center; justify-content:center; background:var(--accent-violet); border-radius:8px;">
+                                    <img src="img/bg-img/valigetta01-1.png" alt="Teleaudiologia" style="width:24px; height:24px; object-fit:contain;">
+                                </div>
+                                <div>
+                                    <h6 style="margin-bottom:2px; color:var(--accent-violet); font-weight:700; font-size:1.01rem;">Teleaudiologia</h6>
+                                    <span style="font-size:0.98rem; color:#bdbbbb;">Esami audiometrici e supporto specialistico remoto.</span>
+                                </div>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center">
+                                <div class="service-icon mr-3" style="width:38px; height:38px; display:flex; align-items:center; justify-content:center; background:var(--primary-blue); border-radius:8px;">
+                                    <img src="img/bg-img/valigetta01-1.png" alt="Teleparametri Vitali" style="width:24px; height:24px; object-fit:contain;">
+                                </div>
+                                <div>
+                                    <h6 style="margin-bottom:2px; color:var(--primary-blue); font-weight:700; font-size:1.01rem;">Teleparametri Vitali</h6>
+                                    <span style="font-size:0.98rem; color:#cfc9c9;">Monitoraggio remoto di parametri vitali e diagnosi rapida.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-line"></div>
+                    </div>
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p>&copy; Copyright &copy;2026 Tutti i diritti riservati | Otofarma S.p.A. - Telemedicina</p>
+                        </div>
+                    </div>
+                  
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+<script>
+// Language switcher for IT, EN-UK, EN-USA
+const translations = {
+    it: {
+        home: 'Home',
+        about: 'Chi Siamo',
+        products: 'Prodotti e Servizi',
+        contact: 'Contattaci',
+        getStarted: 'INIZIA ORA',
+        contactUs: 'CONTATTI',
+        ourServices: 'I NOSTRI SERVIZI',
+        aboutUs: 'CHI SIAMO',
+        viewAll: 'Vedi Tutto',
+        newsletter: 'Resta in contatto con MaxOto',
+        subscribe: 'ISCRIVITI',
+        quickLinks: 'LINK RAPIDI',
+        bestSeller: 'PRODOTTI PIÙ VENDUTI',
+        contacts: 'CONTATTI',
+        endo: 'SERIE ENDO',
+        cic: 'SERIE CIC',
+        medDevice: 'Dispositivo medico CE 0051',
+        aboutFooter: 'Chi Siamo',
+        contactFooter: 'Contattaci',
+        productsFooter: 'Prodotti e Servizi',
+        brochureTitle: 'Scarica la Brochure MaxOto',
+        brochureCaption: 'Clicca sull’immagine o sul titolo per scaricare il PDF informativo.',
+        rollupTitle: 'Scarica il Rollup MaxOto',
+        rollupCaption: 'Clicca sull’immagine o sul titolo per scaricare il PDF informativo.'
+    },
+    'en-uk': {
+        home: 'Home',
+        about: 'About Us',
+        products: 'Products & Services',
+        contact: 'Contact Us',
+        getStarted: 'GET STARTED',
+        contactUs: 'CONTACT US',
+        ourServices: 'OUR SERVICES',
+        aboutUs: 'ABOUT US',
+        viewAll: 'View All',
+        newsletter: 'Stay in touch with MaxOto',
+        subscribe: 'SUBSCRIBE',
+        quickLinks: 'QUICK LINKS',
+        bestSeller: 'BEST SELLER',
+        contacts: 'CONTACT',
+        endo: 'ENDO SERIES',
+        cic: 'CIC SERIES',
+        medDevice: 'Medical device CE 0051',
+        aboutFooter: 'About Us',
+        contactFooter: 'Contact Us',
+        productsFooter: 'Products & Services',
+        brochureTitle: 'Download MaxOto Brochure',
+        brochureCaption: 'Click the image or title to download the info PDF.',
+        rollupTitle: 'Download MaxOto Rollup',
+        rollupCaption: 'Click the image or title to download the info PDF.'
+    },
+    'en-usa': {
+        home: 'Home',
+        about: 'About Us',
+        products: 'Products & Services',
+        contact: 'Contact Us',
+        getStarted: 'GET STARTED',
+        contactUs: 'CONTACT US',
+        ourServices: 'OUR SERVICES',
+        aboutUs: 'ABOUT US',
+        viewAll: 'View All',
+        newsletter: 'Stay in touch with MaxOto',
+        subscribe: 'SUBSCRIBE',
+        quickLinks: 'QUICK LINKS',
+        bestSeller: 'BEST SELLER',
+        contacts: 'CONTACT',
+        endo: 'ENDO SERIES',
+        cic: 'CIC SERIES',
+        medDevice: 'Medical device CE 0051',
+        aboutFooter: 'About Us',
+        contactFooter: 'Contact Us',
+        productsFooter: 'Products & Services',
+        brochureTitle: 'Download MaxOto Brochure',
+        brochureCaption: 'Click the image or title to download the info PDF.',
+        rollupTitle: 'Download MaxOto Rollup',
+        rollupCaption: 'Click the image or title to download the info PDF.'
+    }
+};
+
+function setLanguage(lang) {
+    const t = translations[lang] || translations['it'];
+    // Nav
+    document.querySelectorAll('.classynav a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'home' || a.textContent.trim() === 'Home') a.textContent = t.home;
+        if (a.textContent.trim().toLowerCase() === 'about us' || a.textContent.trim() === 'Chi Siamo') a.textContent = t.about;
+        if (a.textContent.trim().toLowerCase() === 'products & services' || a.textContent.trim() === 'Prodotti e Servizi') a.textContent = t.products;
+        if (a.textContent.trim().toLowerCase() === 'contact us' || a.textContent.trim() === 'Contattaci') a.textContent = t.contact;
+    });
+    // Footer nav and quick links
+    document.querySelectorAll('.footer-nav a, .widget-nav a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'home' ) a.textContent = t.home;
+        if (a.textContent.trim().toLowerCase() === 'about us' || a.textContent.trim() === 'Chi Siamo') a.textContent = t.aboutFooter;
+        if (a.textContent.trim().toLowerCase() === 'contact us' || a.textContent.trim() === 'Contattaci') a.textContent = t.contactFooter;
+        if (a.textContent.trim().toLowerCase() === 'products & services' || a.textContent.trim() === 'Prodotti e Servizi') a.textContent = t.productsFooter;
+    });
+    // Footer widget titles
+    document.querySelectorAll('.widget-title h5').forEach(h5 => {
+        if (h5.textContent.trim().toLowerCase() === 'quick link' || h5.textContent.trim() === 'LINK RAPIDI') h5.textContent = t.quickLinks;
+        if (h5.textContent.trim().toLowerCase() === 'best seller' || h5.textContent.trim() === 'PRODOTTI PIÙ VENDUTI') h5.textContent = t.bestSeller;
+        if (h5.textContent.trim().toLowerCase() === 'contact' || h5.textContent.trim() === 'CONTATTI') h5.textContent = t.contacts;
+    });
+    // Best seller product names
+    document.querySelectorAll('.product-info a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'endo series' || a.textContent.trim() === 'SERIE ENDO') a.textContent = t.endo;
+        if (a.textContent.trim().toLowerCase() === 'cic series' || a.textContent.trim() === 'SERIE CIC') a.textContent = t.cic;
+    });
+    document.querySelectorAll('.product-info p').forEach(p => {
+        if (p.textContent.trim().toLowerCase() === 'medical device ce 0051' || p.textContent.trim() === 'Dispositivo medico CE 0051') p.textContent = t.medDevice;
+    });
+    // Example: update buttons
+    document.querySelectorAll('.btn.alazea-btn').forEach(btn => {
+        if (btn.textContent.trim().toLowerCase() === 'get started') btn.textContent = t.getStarted;
+        if (btn.textContent.trim().toLowerCase() === 'contact us') btn.textContent = t.contactUs;
+        if (btn.textContent.trim().toLowerCase() === 'view all') btn.textContent = t.viewAll;
+        if (btn.textContent.trim().toLowerCase() === 'subscribe') btn.textContent = t.subscribe;
+    });
+    // Example: update section headings
+    document.querySelectorAll('h2').forEach(h2 => {
+        if (h2.textContent.trim().toLowerCase() === 'our services') h2.textContent = t.ourServices;
+        if (h2.textContent.trim().toLowerCase() === 'about us') h2.textContent = t.aboutUs;
+    });
+    // Brochure/Rollup titles and captions
+    document.querySelectorAll('.post-title h5').forEach(h5 => {
+        if (h5.textContent.trim().toLowerCase().includes('brochure')) h5.textContent = t.brochureTitle;
+        if (h5.textContent.trim().toLowerCase().includes('rollup')) h5.textContent = t.rollupTitle;
+    });
+    document.querySelectorAll('.post-excerpt').forEach(p => {
+        if (p.textContent.trim().toLowerCase().includes('pdf informativo')) {
+            if (p.previousElementSibling && p.previousElementSibling.querySelector('h5') && p.previousElementSibling.querySelector('h5').textContent.toLowerCase().includes('brochure')) {
+                p.textContent = t.brochureCaption;
+            } else if (p.previousElementSibling && p.previousElementSibling.querySelector('h5') && p.previousElementSibling.querySelector('h5').textContent.toLowerCase().includes('rollup')) {
+                p.textContent = t.rollupCaption;
+            } else {
+                p.textContent = t.brochureCaption;
+            }
+        }
+    });
+    // ...add more selectors as needed for full translation
+}
+
+document.querySelectorAll('.language-option').forEach(el => {
+    el.addEventListener('click', function(e) {
+        e.preventDefault();
+        setLanguage(this.getAttribute('data-lang'));
+    });
+});
+// Set default language to Italian
+setLanguage('it');
+</script>
+</body>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('chisiamo-video');
+    if (video) {
+        video.playbackRate = 0.07; // slowest motion
+    }
+});
+</script>
+</body>
+
+</html>
